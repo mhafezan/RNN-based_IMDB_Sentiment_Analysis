@@ -147,9 +147,3 @@ Update the dataset path in **Cell 3** to match your environment (local path, Col
 - **Persist the best checkpoint:** add `torch.save(model.state_dict(), "model.pt")` when validation improves  
 - **Use probabilities for ROC/AUC:** compute ROC using sigmoid probabilities instead of thresholded outputs  
 - **Reproducibility:** set random seeds for NumPy/PyTorch and pass `random_state` to `train_test_split`
-
----
-
-## License
-
-Add a license that matches your intended use (e.g., MIT).  
